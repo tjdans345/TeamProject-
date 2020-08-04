@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+<!-- JNDI기술을 사용해서 접속할 DB정보 저장 -->
+	<Resource
+		name="jdbc/pp"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/PP"
+		username="pp"
+		password="pp"
+	/>
+</context>
